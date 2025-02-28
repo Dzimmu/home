@@ -1,0 +1,57 @@
+# ---------------------------------------------------------
+# Practicalli Kitty terminal theme
+#
+# Configuration using GitHub theme with light and dark options
+# using FiraCode font and NerdFont symbol mappings for icon support
+# for powerline10k and web-devicons in Neovim
+# ---------------------------------------------------------
+
+# ---------------------------------------------------------
+# Colorscheme / Icons
+
+# Icons from NerdFont (install Nerdfont symbols only theme)
+include ./nerdfont-icons.conf
+
+# `kitty +kitten theme` to browse available themes and apply one
+# `kitty +kitten theme theme-name` to change themes automatically
+# Favorite themese include:
+# Catppuccin-Latte and Catppuccin-Mocha
+# GitHub Light and GitHub Dark
+
+# BEGIN_KITTY_THEME
+# Dracula
+include current-theme.conf
+# END_KITTY_THEME
+# ---------------------------------------------------------
+
+# ---------------------------------------------------------
+# Feedback
+enable_audio_bell no
+# visual_bell_color none
+# ---------------------------------------------------------
+
+# ---------------------------------------------------------
+# Tab styles
+# fade slant separator powerline custom hidden
+tab_bar_style powerline
+tab_bar_align left
+tab_powerline_style angled
+# ---------------------------------------------------------
+
+# ---------------------------------------------------------
+# Fonts
+font_family FiraCode
+
+# Patched fonts (not recommended for Kitty)
+# font_family MesloLGS NF
+# font_family Fira Code NF
+
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
+font_size 11
+
+# adjust_line_height  0
+# adjust_column_width 0
+# adjust_baseline 0
+# ---------------------------------------------------------

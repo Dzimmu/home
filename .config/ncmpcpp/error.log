@@ -1,0 +1,4 @@
+TagLib: Could not open file /run/media/edward/Business/Music/http://listen.rusongs.ru/ru-mp3-128
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: ID3v2.4 no longer supports the frame type TDAT.  It will be discarded from the tag.
